@@ -1,0 +1,25 @@
+---
+# Hybrid CasC — Repos Manifest (Registry)
+# Canonical source of truth for all CasC repositories.
+# Resides in the platform org's aap-organizations-global repo.
+# Updated automatically by the bootstrap playbook when onboarding tenants.
+
+env_branch_map:
+  dev: main
+  prd: main
+
+platform_repos:
+  - name: aap-organizations-global
+    scope: platform
+    org: aap-casc-platform-demo
+  - name: aap-teams-global
+    scope: platform
+    org: aap-casc-platform-demo
+  - name: gateway-role_user_assignments-global
+    scope: platform
+    org: aap-casc-platform-demo
+  - name: gateway-role_team_assignments-global
+    scope: platform
+    org: aap-casc-platform-demo
+
+tenant_repos: []
