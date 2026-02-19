@@ -4,6 +4,8 @@
 # Resides in the platform org's aap-organizations-global repo.
 # Updated automatically by the bootstrap playbook when onboarding tenants.
 
+default_organization: Default
+
 env_branch_map:
   dev: main
   prd: main
