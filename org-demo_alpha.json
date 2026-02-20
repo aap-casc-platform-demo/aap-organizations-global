@@ -1,1 +1,13 @@
-{'aap_organizations': [{'name': 'org-demo_alpha', 'description': 'Alpha DevOps automation organization', 'max_hosts': 0, 'default_environment': 'Default execution environment', 'galaxy_credentials': ['Ansible Galaxy']}]}
+{
+    "aap_organizations": [
+        {
+            "default_environment": "Default execution environment",
+            "description": "Alpha DevOps automation organization",
+            "galaxy_credentials": [
+                "Ansible Galaxy"
+            ],
+            "max_hosts": 0,
+            "name": "org-demo_alpha"
+        }
+    ]
+}
