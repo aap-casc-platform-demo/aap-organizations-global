@@ -1,27 +1,33 @@
----
-# Hybrid CasC — Repos Manifest (Registry)
-# Canonical source of truth for all CasC repositories.
-# Resides in the platform org's aap-organizations-global repo.
-# Updated automatically by the bootstrap playbook when onboarding tenants.
-
 default_organization: Default
-
 env_branch_map:
   dev: main
   prd: main
-
 platform_repos:
-  - name: aap-organizations-global
-    scope: platform
-    org: aap-casc-platform-demo
-  - name: aap-teams-global
-    scope: platform
-    org: aap-casc-platform-demo
-  - name: gateway-role_user_assignments-global
-    scope: platform
-    org: aap-casc-platform-demo
-  - name: gateway-role_team_assignments-global
-    scope: platform
-    org: aap-casc-platform-demo
-
-tenant_repos: []
+- name: aap-organizations-global
+  org: aap-casc-platform-demo
+  scope: platform
+- name: aap-teams-global
+  org: aap-casc-platform-demo
+  scope: platform
+- name: gateway-role_user_assignments-global
+  org: aap-casc-platform-demo
+  scope: platform
+- name: gateway-role_team_assignments-global
+  org: aap-casc-platform-demo
+  scope: platform
+tenant_repos:
+- name: controller-projects-demo_alpha
+  org: aap-casc-tenant-alpha-demo
+  scope: demo_alpha
+- name: controller-credentials-demo_alpha
+  org: aap-casc-tenant-alpha-demo
+  scope: demo_alpha
+- name: controller-inventories-demo_alpha
+  org: aap-casc-tenant-alpha-demo
+  scope: demo_alpha
+- name: controller-job_templates-demo_alpha
+  org: aap-casc-tenant-alpha-demo
+  scope: demo_alpha
+- name: controller-schedules-demo_alpha
+  org: aap-casc-tenant-alpha-demo
+  scope: demo_alpha
