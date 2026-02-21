@@ -37,23 +37,23 @@ platform_repos:
 
 tenant_repos:
   - name: controller-projects-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-credentials-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-inventories-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-templates-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-workflows-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-schedules-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
   - name: controller-notifications-demo_alpha
-    scm_org: aap-casc-tenant-alpha-demo
+    scm_org: aap-casc-tenant-demo-alpha
     aap_scope: demo_alpha
