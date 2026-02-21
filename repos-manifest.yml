@@ -2,6 +2,8 @@ default_organization: Default
 
 env_branch_map:
   dev: main
+  tst: main
+  npr: main
   prd: main
 
 platform_repos:
