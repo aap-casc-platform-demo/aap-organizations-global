@@ -1,33 +1,57 @@
 default_organization: Default
+
 env_branch_map:
   dev: main
   prd: main
+
 platform_repos:
-- name: aap-organizations-global
-  org: aap-casc-platform-demo
-  scope: platform
-- name: aap-teams-global
-  org: aap-casc-platform-demo
-  scope: platform
-- name: gateway-role_user_assignments-global
-  org: aap-casc-platform-demo
-  scope: platform
-- name: gateway-role_team_assignments-global
-  org: aap-casc-platform-demo
-  scope: platform
+  - name: aap-organizations-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: aap-teams-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: gateway-role_definitions-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: gateway-role_user_assignments-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: gateway-role_team_assignments-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: controller-credential_types-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: controller-execution_environments-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: controller-settings-global
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+  - name: controller-schedules-platform
+    scm_org: aap-casc-platform-demo
+    aap_scope: platform
+
 tenant_repos:
-- name: controller-projects-demo_alpha
-  org: aap-casc-tenant-alpha-demo
-  scope: demo_alpha
-- name: controller-credentials-demo_alpha
-  org: aap-casc-tenant-alpha-demo
-  scope: demo_alpha
-- name: controller-inventories-demo_alpha
-  org: aap-casc-tenant-alpha-demo
-  scope: demo_alpha
-- name: controller-job_templates-demo_alpha
-  org: aap-casc-tenant-alpha-demo
-  scope: demo_alpha
-- name: controller-schedules-demo_alpha
-  org: aap-casc-tenant-alpha-demo
-  scope: demo_alpha
+  - name: controller-projects-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-credentials-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-inventories-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-templates-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-workflows-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-schedules-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
+  - name: controller-notifications-demo_alpha
+    scm_org: aap-casc-tenant-alpha-demo
+    aap_scope: demo_alpha
