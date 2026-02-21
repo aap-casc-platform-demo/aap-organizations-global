@@ -2,7 +2,7 @@
     "aap_organizations": [
         {
             "default_environment": "Default execution environment",
-            "description": "Alpha DevOps automation organization",
+            "description": "team-alpha automation organization",
             "galaxy_credentials": [
                 "Ansible Galaxy"
             ],
